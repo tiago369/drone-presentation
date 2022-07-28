@@ -1,17 +1,16 @@
 %*----------- SLIDE -------------------------------------------------------------
-\begin{frame}[t]{Introdução}
+\begin{frame}[t]{Por que?}
     \transdissolve[duration=0.5]
-    Um dos pontos importantes na área da robótica é a interação entre os sistemas, e em decorrência ao programa de formação em robótica uma das lacunas será preenchida com o desenvolvimento do desafio 2.5..
 
-    O desafio consiste em:
+    O problema consiste em:
     %\newline
     \begin{columns}[t]
         \column{.05\linewidth}
         \column{.4\linewidth}
         \begin{enumerate}
-            \item assimilar o conhecimento da interação em robots;
-            \item compreender em profundidade os conceitos de simulação, e o;
-            \item desenvolvimento da liderança em projetos \cite{Mohan2015}.
+            \item Encerramento de um linha de pesquisa;
+            \item paralisação da pesquisa em veículos aéreos;
+            \item necessidade do desenvolvimento de competências.
         \end{enumerate}
         \column{.6\linewidth}
         \begin{center}
@@ -30,62 +29,51 @@
 \end{frame}
 %-
 %*----------- SLIDE -------------------------------------------------------------
-\begin{frame}[c]{Objetivo}
-    \framesubtitle{sub-objetivo}
+\begin{frame}[t]{Para resolver esse problema}
     \transdissolve[duration=0.5]
 
-    \begin{center}
-        \Wider{%
-            \begin{shaded}
-                \begin{center}
-                    \vspace*{0.5cm}
-                    \resizebox{!}{0.7cm}{%
-                        \color{extracolor} O objetivo é ter um objetivo.
-                    }%
-                \end{center}
-            \end{shaded}
-        }%
-    \end{center}
-
-
-    %*----------- notes
-    \note[item]{Notes can help you to remember important information. Turn on the notes option.}
-\end{frame}
-%-
-{
-\setbeamertemplate{background}
-{\includegraphics[trim = 0 0 0 0, clip, width = \the\paperwidth, height = \the\paperheight]{marcel-knupfer-37wuETxVwTQ-unsplash.jpg}}
-%*----------- SLIDE -------------------------------------------------------------
-\begin{frame}[c]{}
-    \transboxout[duration=0.5]
-
-    \begin{columns}
-        \column{.1\textwidth}
-        \column{.3\textwidth}
-        \column{.53\textwidth}
-        \vspace*{-3.5cm}
-        \Huge{\textbf{\textcolor{mracula5}{Quando chovia...}}}
+    Criação de um drone para o laboratório
+    \newline
+    \begin{columns}[t]
+        \column{.6\linewidth}
+        \begin{center}
+            %\centerline{
+            \begin{figure}
+                %\includegraphics[width=1\textwidth]{pista}
+                \caption{Pista de corrida \cite{agostini2007}}
+                \roundpic[xshift=0cm,yshift=0cm]{2.5cm}{6cm}{pista}
+                %\caption{Pista de corrida \cite{agostini2007}}
+            \end{figure}
+            %}
+        \end{center}
     \end{columns}
     %*----------- notes
     \note[item]{Notes can help you to remember important information. Turn on the notes option.}
 \end{frame}
-%-
-}
+
 %*----------- SLIDE -------------------------------------------------------------
-\begin{frame}[t]{O sistema robótico}
+\begin{frame}[t]{Materiais necessarios}
     \transboxout[duration=0.5]
     \framesubtitle{Darwin-OP}
     \begin{columns}
-        \column{.1\textwidth}
-        \column{.4\textwidth}
-        \includegraphics[width=.7\textwidth]{darwin-op}
-        \column{.4\textwidth}
-        \begin{enumerate}
-            \item plataforma antropormórfica Darwin-OP;
-            \item 20 DoF\footnote{do inglês, graus de liberdade};
-            \item composto de 18 servo-motores;
-            \item possui um grande gama de sensores para interação.
-        \end{enumerate}
+        \column{.5\textwidth}
+        % \centering
+        \begin{tabular}{c c c c c}
+            Peça & Quant. & Valor uni. & Total \\
+            Helices & 4 & R\$70.00 & R\$280.00 \\
+            Motores Brushless (12V) & 4 & R\$120.00 & R\$480.00 \\
+            Controlador ESC & 4 & R\$80.00 & R\$320.00 \\
+            Barometro & 1 & R\$100.00 & R\$100.00\\
+            IMU / MPU & 1 & R\$30.00 & R\$30.00 \\
+            Laser unidirecional & 1 & R\$100.00 & R\$100.00 \\
+            Teensy microcontroller & 1 & R\$400.00 & R\$400.00 \\
+            Receptor de rádio + Controle & 1 & R\$620.00 & R\$620.00 \\
+            Adaptador Wi-Fi & 1 & R\$100.00 & R\$100.00 \\
+            Estrutura de fibra & 1 & R\$350.00 &R\$350.00 \\
+            Bateria de Lipo & 2 & R\$250.00 & R\$500.00 \\
+            Power Hub & 1 & R\$100.00 & R\$100.00 \\
+        \end{tabular}
+        \column{.5\textwidth}
     \end{columns}
     %*----------- notes
     \note[item]{Notes can help you to remember important information. Turn on the notes option.}
