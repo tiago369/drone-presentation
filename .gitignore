@@ -277,3 +277,4 @@ TSWLatexianTemp*
 
 # Remove the PDF files generated
 *eps-converted-to.pdf
+*.pdf
